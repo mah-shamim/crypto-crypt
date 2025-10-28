@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="app_title">Crypto Crypt 🎃</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Language Selector -->
+        <div class="language-selector">
+            <select id="language-select">
+                <option value="en">English 🇺🇸</option>
+                <option value="es">Español 🇪🇸</option>
+                <option value="fr">Français 🇫🇷</option>
+                <option value="de">Deutsch 🇩🇪</option>
+                <option value="ja">日本語 🇯🇵</option>
+                <option value="ko">한국어 🇰🇷</option>
+                <option value="zh">中文 🇨🇳</option>
+                <option value="bn">বাংলা 🇧🇩</option>
+            </select>
+        </div>
+
+        <!-- Header Section -->
+        <header class="crypt-header">
+            <h1 class="title" data-i18n="app_title">🦇 Crypto Crypt</h1>
+            <div class="controls">
+                <input type="text" id="coin-search" placeholder="Search coins..." class="search-bar" data-i18n-placeholder="search_placeholder">
+                <div class="filters">
+                    <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All Ghosts</button>
+                    <button class="filter-btn" data-filter="rising" data-i18n="filter_rising">Rising Dead</button>
+                    <button class="filter-btn" data-filter="falling" data-i18n="filter_falling">Buried</button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Graveyard Portfolio -->
+        <main class="graveyard-container">
+            <div id="graveyard" class="graveyard">
+                <!-- Tombstones will be dynamically inserted here -->
+            </div>
+        </main>
+
+        <!-- Portfolio Summary -->
+        <footer class="portfolio-footer">
+            <div class="portfolio-summary">
+                <div class="total-value">
+                    <span class="label" data-i18n="portfolio_value">Portfolio Value:</span>
+                    <span id="portfolio-value" class="value">$--,--</span>
+                </div>
+                <div class="daily-change">
+                    <span class="label" data-i18n="daily_change">24h Change:</span>
+                    <span id="daily-change" class="value change-neutral">--%</span>
+                </div>
+                <button id="refresh-btn" class="refresh-btn" data-i18n="refresh_button">🔄 Refresh Crypt</button>
+            </div>
+        </footer>
+
+        <!-- Coin Details Modal -->
+        <div id="coin-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div id="coin-details">
+                    <!-- Dynamic coin details -->
+                </div>
+            </div>
+        </div>
+
+        <!-- Sound Toggle -->
+        <div class="sound-toggle">
+            <button id="sound-btn" class="sound-btn" data-i18n="sound_on">🔊 Sound On</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

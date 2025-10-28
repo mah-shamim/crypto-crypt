@@ -1,0 +1,84 @@
+{
+  "coins": [
+    {
+      "id": "bitcoin",
+      "symbol": "btc",
+      "name": "Bitcoin",
+      "current_price": 45231.50,
+      "change_24h": 2.34,
+      "market_cap": 885423156123,
+      "volume_24h": 23456789012,
+      "volatility": 2.1
+    },
+    {
+      "id": "ethereum",
+      "symbol": "eth",
+      "name": "Ethereum",
+      "current_price": 2387.21,
+      "change_24h": -1.23,
+      "market_cap": 286534789012,
+      "volume_24h": 14567890123,
+      "volatility": 3.4
+    },
+    {
+      "id": "cardano",
+      "symbol": "ada",
+      "name": "Cardano",
+      "current_price": 0.5123,
+      "change_24h": 12.67,
+      "market_cap": 17890543210,
+      "volume_24h": 456789012,
+      "volatility": 5.8
+    },
+    {
+      "id": "dogecoin",
+      "symbol": "doge",
+      "name": "Dogecoin",
+      "current_price": 0.0789,
+      "change_24h": -8.45,
+      "market_cap": 11234567890,
+      "volume_24h": 567890123,
+      "volatility": 7.2
+    },
+    {
+      "id": "solana",
+      "symbol": "sol",
+      "name": "Solana",
+      "current_price": 98.76,
+      "change_24h": 18.91,
+      "market_cap": 42345678901,
+      "volume_24h": 2345678901,
+      "volatility": 9.5
+    },
+    {
+      "id": "polkadot",
+      "symbol": "dot",
+      "name": "Polkadot",
+      "current_price": 6.54,
+      "change_24h": -0.89,
+      "market_cap": 8345678901,
+      "volume_24h": 345678901,
+      "volatility": 2.8
+    },
+    {
+      "id": "chainlink",
+      "symbol": "link",
+      "name": "Chainlink",
+      "current_price": 14.32,
+      "change_24h": 1.23,
+      "market_cap": 7567890123,
+      "volume_24h": 456789012,
+      "volatility": 4.1
+    },
+    {
+      "id": "litecoin",
+      "symbol": "ltc",
+      "name": "Litecoin",
+      "current_price": 67.89,
+      "change_24h": -2.34,
+      "market_cap": 4987654321,
+      "volume_24h": 567890123,
+      "volatility": 3.9
+    }
+  ]
+}
