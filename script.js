@@ -569,7 +569,7 @@ $(document).ready(function() {
                     if (navigator.onLine) {
                         this.loadCoinData();
                     }
-                }, 120000);
+                }, 190000);
                 
                 setInterval(() => {
                     this.animateRandomTombstones();
